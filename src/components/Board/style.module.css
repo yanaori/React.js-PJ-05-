@@ -1,0 +1,93 @@
+.containerBoard {
+    width: 282px;
+    background-color: #EBECF0;
+    border-radius: 10px;
+}
+
+.board {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 12px;
+}
+
+.status {
+    padding-top: 12px;
+    color: #000000;
+    font-size: 18px;
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-height: 415px;
+    overflow-Y: auto;
+}
+
+.link {
+    padding: 7px 8px;
+    font-size: 18px;
+    border-radius: 5px;
+    overflow: visible;
+    /* Показывать весь текст */
+    word-wrap: break-word;
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.button {
+    font-size: 18px;
+    color: #5E6C84;
+    margin-bottom: 8px;
+    width: 102px;
+    height: 25px;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #FFFFFF
+}
+
+.buttonSubmit {
+    font-size: 18px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+    background-color: #0079BF;
+    width: 102px;
+    height: 29px;
+    border-radius: 5px;
+}
+
+.disabledButton {
+    background-color: lightgray;
+    color: gray;
+    cursor: not-allowed;
+    width: 102px;
+    height: 29px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+
+.input {
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    font-size: 18px;
+    padding: 7px 8px;
+}
+
+input:focus {
+    outline: none;
+  }
+
+@media screen and (max-width: 1127px) {
+    .containerBoard {
+       max-width: 282px;
+    }
+}
+@media screen and (max-width: 339px) {
+    .button {
+        background-color: #FFFFFF;
+    }
+}

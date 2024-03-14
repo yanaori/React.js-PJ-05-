@@ -1,0 +1,68 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+  font-family: Roboto, sans-serif;
+}
+
+a,
+label,
+button,
+select,
+option {
+    cursor: pointer;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+a,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ul li {
+    list-style: none;
+}
+
+body {
+  background: #0079BF;
+  font-family: Roboto;
+  height: 100%;
+  /* overflow-y: hidden; */
+}
+
+html {
+  height: 100%;
+}
+
+/* .wrapper {
+  max-width: 1200px;
+  margin: 18px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 339px) {
+.wrapper {
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 103px;
+}
+
+} */
+.wrappe-box {
+  min-height: 100vh; /* Устанавливаем минимальную высоту wrapper равную 100% высоты видимой области */
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,15 @@
+.select {
+    max-width: 258px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-bottom: 18px;
+    word-wrap: break-word;
+    white-space: wrap;
+    max-height: 200px;
+}
+
+.dropdownIndicator {
+    right: 11px;
+    position: absolute;
+    cursor: pointer;
+}

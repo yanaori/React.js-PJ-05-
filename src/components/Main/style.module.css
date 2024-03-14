@@ -1,0 +1,26 @@
+.wrapper {
+    max-width: 1200px;
+    margin: 18px auto;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+  }
+  
+  @media screen and (max-width: 1127px) {
+  .wrapper {
+    gap: 26px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 85px auto;
+  }
+  
+  }
+  @media screen and (max-width: 339px) {
+  .wrapper {
+    gap: 91px;
+    justify-content: space-evenly;
+  }
+  
+  }
+  
+

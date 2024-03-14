@@ -1,0 +1,42 @@
+.footer {
+  display: flex;
+  background-color: #0067A3;
+  padding: 1.35% 1.75%;
+  justify-content: space-between;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.text {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.countText {
+  display: flex;
+  gap: 15%;
+  width: 33%;
+}
+
+@media screen and (max-width: 339px) {
+
+  .footer {
+    position: static;
+    flex-direction: column;
+    row-gap: 8px;
+    background: none;
+  }
+
+  .countText {
+    width: 100%;
+    gap: 3%;
+    justify-content: space-evenly;
+  }
+
+  .text {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
